@@ -1,6 +1,6 @@
-import Accordion from './components/Accordion';
+import Accordion from '../components/Accordion';
 
-function App(){
+function AccordionPage(){
     return <div>
         <Accordion items={
             [
@@ -29,4 +29,4 @@ function App(){
     </div>;
 };
 
-export default App;
+export default AccordionPage;
