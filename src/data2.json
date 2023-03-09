@@ -1,0 +1,58 @@
+{
+    "ids":{
+        "XAxis":"subject",
+        "YAxis":"",
+        "Plots":["A","B","C","D"],
+        "Maximum Yaxis":"fullMark"
+    },
+    "data":[
+        {
+        "subject": "Math",
+        "A": 120,
+        "B": 110,
+        "C": 90,
+        "D": 70,
+        "fullMark": 150
+        },
+        {
+        "subject": "Chinese",
+        "A": 98,
+        "B": 130,
+        "C": 80,
+        "D": 100,
+        "fullMark": 150
+        },
+        {
+        "subject": "English",
+        "A": 86,
+        "B": 130,
+        "C": 80,
+        "D": 70,
+        "fullMark": 150
+        },
+        {
+        "subject": "Geography",
+        "A": 99,
+        "B": 100,
+        "C": 40,
+        "D": 58,
+        "fullMark": 150
+        },
+        {
+        "subject": "Physics",
+        "A": 85,
+        "B": 90,
+        "C": 90,
+        "D": 87,
+        "fullMark": 150
+        },
+        {
+        "subject": "History",
+        "A": 65,
+        "B": 85,
+        "C": 96,
+        "D": 73,
+        "fullMark": 150
+        }
+    ]
+}

@@ -28,6 +28,8 @@ function AreaGraph({data}){
             <Tooltip />
             <Area type="monotone" dataKey="A" stroke="black" fillOpacity={1} fill="url(#colorUv)" />
             <Area type="monotone" dataKey="B" stroke="red" fillOpacity={1} fill="url(#colorPv)" />
+            <Area type="monotone" dataKey="C" stroke="grey" fillOpacity={1} fill="url(#colorUv)" />
+            <Area type="monotone" dataKey="D" stroke="yellow" fillOpacity={1} fill="url(#colorPv)" />
         </AreaChart>
         </div>
         
