@@ -16,31 +16,34 @@ function GraphEdit(){
         setImpl(opt.config());
     }
 
+    const color=["#CB4335","#7D3C98","#2E86C1","#138D75","#28B463"];
+
     const options=[
         {
             label:'Area',
             value:'Area',
-            config:()=>{return <AreaGraph data={data["data"]}/>;}
+            config:()=>{ console.log(data);
+                return <AreaGraph data={data} color={color}/>;}
         },
         {
             label:'Bar',
             value:'Bar',
-            config:()=>{return <BarGraph data={data}></BarGraph>;}
+            config:()=>{return <BarGraph data={data} color={color}></BarGraph>;}
         },
         {
             label:'Line',
             value:'Line',
-            config:()=>{return <LineGraph data={data}/>;}
+            config:()=>{return <LineGraph data={data} color={color}/>;}
         },
         {
             label:'Pie',
             value:'Pie',
-            config:()=>{return <PieGraph data={data}/>;}
+            config:()=>{return <PieGraph data={data} color={color}/>;}
         },
         {
             label:'Radar',
             value:'Radar',
-            config:()=>{return <RadarGraph data={data}/>;}
+            config:()=>{return <RadarGraph data={data} color={color}/>;}
         }
     ]
 

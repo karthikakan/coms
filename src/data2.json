@@ -5,7 +5,7 @@
         "Plots":["A","B","C","D"],
         "Maximum Yaxis":"fullMark"
     },
-    "data":[
+    "values":[
         {
         "subject": "Math",
         "A": 120,
